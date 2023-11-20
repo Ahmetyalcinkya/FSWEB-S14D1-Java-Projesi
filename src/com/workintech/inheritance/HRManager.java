@@ -6,7 +6,7 @@ public class HRManager extends Employee{
     private MidDeveloper[] mids;
     private SeniorDeveloper[] seniors;
 
-    public HRManager(int id, String name, int salary, JuniorDeveloper[] juniors,) {
+    public HRManager(int id, String name, int salary, JuniorDeveloper[] juniors) {
         super(id, name, salary);
         this.juniors = juniors;
     }
